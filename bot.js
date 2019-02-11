@@ -1,4 +1,4 @@
-const Discord = require('discord.js'); //Z Bot
+const Discord = require('discord.js'); //Test1		
 
 const Util = require('discord.js');
 
