@@ -589,31 +589,31 @@ message.channel.send(`**# ${args}**`); // محطوط # عشان محد يستخ�
                 
 
  
-client.on('message', message => { //By |.iiMostafaYT#1001
-    if (message.content.startsWith("$bot")) { //By |.iiMostafaYT#1001
-    message.channel.send({ //By |.iiMostafaYT#1001
-        embed: new Discord.RichEmbed() //By |.iiMostafaYT#1001
-            .setAuthor(client.user.username,client.user.avatarURL) //By |.iiMostafaYT#1001
-            .setThumbnail(client.user.avatarURL) //By |.iiMostafaYT#1001
-            .setColor('RANDOM') //By |.iiMostafaYT#1001
-            .setTitle('Info Z Bot') //By |.iiMostafaYT#1001
-            .addField('**My Ping**' , [`${Date.now() - message.createdTimestamp}` + 'MS'], true) //By |.iiMostafaYT#1001
-            .addField('**RAM Usage**', `[${(process.memoryUsage().rss / 1048576).toFixed()}MB]`, true) //By |.iiMostafaYT#1001
-            .addField('**Servers**', [client.guilds.size], true) //By |.iiMostafaYT#1001
-            .addField('**Channels**' , `[ ${client.channels.size} ]` , true) //By |.iiMostafaYT#1001
-            .addField('**Users**' ,`[ ${client.users.size} ]` , true) //By |.iiMostafaYT#1001
-            .addField('**My Name**' , `[ ${client.user.tag} ]` , true) //By |.iiMostafaYT#1001
-            .addField('**My ID**' , `[ ${client.user.id} ]` , true) //By |.iiMostafaYT#1001
-            .addField('**DiscordJS**' , `[ ${Discord.version} ]` , true) //By |.iiMostafaYT#1001
-            .addField('**NodeJS**' , `[ ${process.version} ]` , true) //By |.iiMostafaYT#1001
-            .addField('**Arch**' , `[ ${process.arch} ]` , true) //By |.iiMostafaYT#1001
-            .addField('**Platform**' , `[ ${process.platform} ]` , true) //By |.iiMostafaYT#1001
-                  .addField('**My Prefix**' , `[ ${prefix} ]` , true) //By |.iiMostafaYT#1001
-                  .addField('**My Language**' , `[ Java Script ]` , true) //By |.iiMostafaYT#1001
-                  .setFooter('By | @HeemPlayz#9999 ') //By |.iiMostafaYT#1001
-    }) //By |.iiMostafaYT#1001
-} //By |.iiMostafaYT#1001
-}); //By |.iiMostafaYT#1001
+client.on('message', message => { //By |.👑『AboRoh』👑#1558
+    if (message.content.startsWith("$bot")) { //By |.👑『AboRoh』👑#1558
+    message.channel.send({ //By |.👑『AboRoh』👑#1558
+        embed: new Discord.RichEmbed() //By |.👑『AboRoh』👑#1558
+            .setAuthor(client.user.username,client.user.avatarURL) //By |.👑『AboRoh』👑#1558
+            .setThumbnail(client.user.avatarURL) //By |.👑『AboRoh』👑#1558
+            .setColor('RANDOM') //By |.👑『AboRoh』👑#1558
+            .setTitle('Info Z Bot') //By |.👑『AboRoh』👑#1558
+            .addField('**My Ping**' , [`${Date.now() - message.createdTimestamp}` + 'MS'], true) //By |.👑『AboRoh』👑#1558
+            .addField('**RAM Usage**', `[${(process.memoryUsage().rss / 1048576).toFixed()}MB]`, true) //By |.👑『AboRoh』👑#1558
+            .addField('**Servers**', [client.guilds.size], true) //By |.👑『AboRoh』👑#1558
+            .addField('**Channels**' , `[ ${client.channels.size} ]` , true) //By |.👑『AboRoh』👑#1558
+            .addField('**Users**' ,`[ ${client.users.size} ]` , true) //By |.👑『AboRoh』👑#1558
+            .addField('**My Name**' , `[ ${client.user.tag} ]` , true) //By |.👑『AboRoh』👑#1558
+            .addField('**My ID**' , `[ ${client.user.id} ]` , true) //By |.👑『AboRoh』👑#1558
+            .addField('**DiscordJS**' , `[ ${Discord.version} ]` , true) //By |.👑『AboRoh』👑#1558
+            .addField('**NodeJS**' , `[ ${process.version} ]` , true) //By |.👑『AboRoh』👑#1558
+            .addField('**Arch**' , `[ ${process.arch} ]` , true) //By |.👑『AboRoh』👑#1558
+            .addField('**Platform**' , `[ ${process.platform} ]` , true) //By |.👑『AboRoh』👑#1558
+                  .addField('**My Prefix**' , `[ ${prefix} ]` , true) //By |.👑『AboRoh』👑#1558
+                  .addField('**My Language**' , `[ Java Script ]` , true) //By |.👑『AboRoh』👑#1558
+                  .setFooter('By | @HeemPlayz#9999 ') //By |.👑『AboRoh』👑#1558
+    }) //By |.👑『AboRoh』👑#1558
+} //By |.👑『AboRoh』👑#1558
+}); //By |.👑『AboRoh』👑#1558
 
 client.on('message', message => {
      var prefix = "$"
@@ -1041,7 +1041,7 @@ client.on('guildCreate', guild => {
                                             let embed = new Discord.RichEmbed()
                                             .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
                                             .setTitle(`:small_orange_diamond: Invite Link `)
-                                            .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=517673066642276367&permissions=8&scope=bot`)
+                                            .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=543809710776778802&permissions=8&scope=bot`)
                                             .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
                                          message.channel.sendEmbed(embed);
                                            }
@@ -1053,7 +1053,7 @@ client.on('guildCreate', guild => {
                                             let embed = new Discord.RichEmbed()
                                             .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
                                             .setTitle(`:small_orange_diamond: Invite Link `)
-                                            .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=517673066642276367&permissions=8&scope=bot`)
+                                            .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=543809710776778802&permissions=8&scope=bot`)
                                             .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
                                          message.channel.sendEmbed(embed);
                                            }
@@ -1064,7 +1064,7 @@ client.on('guildCreate', guild => {
                                         let embed = new Discord.RichEmbed()
                                      .setAuthor(message.author.username)
                                      .setColor("#9B59B6")
-                                     .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/hQJGDWk**")
+                                     .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/7aR8RBK**")
                                         
                                         
                                      message.channel.sendEmbed(embed);
@@ -4104,7 +4104,7 @@ client.on('message', function(message) {
 
             .setFooter(`من (@${message.author.tag})  |  (${message.author.id})`)
 
-        client.channels.get("543718891130454025").send({ embed: stewart }); //523196116620017684
+        client.channels.get("543809710776778802").send({ embed: stewart }); //543809710776778802
     }
 });
 
